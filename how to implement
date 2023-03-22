@@ -1,0 +1,34 @@
+P1:
+p1a:
+-Compile with 
+gcc p1a.c -o p1a
+-Run with
+./p1a 1
+./p1a 3
+./p1a 5
+
+p1b:
+- Compile with 
+gcc p1b.c -o p1b
+-Run with
+./p1b &
+
+p1c:
+- Compile with 
+gcc p1c.c -o p1c
+- Run with
+./p1c
+
+
+P2:
+- Compile with 
+gcc p2.c -o p2
+-Run with
+./p2 5 ls -la
+
+P3:
+- Compile with 
+gcc p3.c -o p3
+make
+-Run with
+shuf -i 1-1000 | ./search 98 3
