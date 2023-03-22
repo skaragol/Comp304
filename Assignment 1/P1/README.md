@@ -1,7 +1,3 @@
-P1: In Unix/Linux, new processes created using the fork() system call. Calling fork()
-creates a copy of calling process and the new process starts executing immediately. After
-the fork() call, both parent and child processes start executing the same code.
-
 p1a: C program that calls fork() n times consecutively where n is an integer parameter
 provided as a command-line argument. Then each of the forked processes prints its ID, its
 parent’s ID and its level in the process tree (The level of the main process is 0).
