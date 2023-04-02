@@ -1,4 +1,4 @@
-# 2023S_TechTurtles
+# Comp304
 Operating Systems
 
 Operating system concepts and strategies,
